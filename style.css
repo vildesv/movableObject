@@ -1,0 +1,48 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to bottom right, #d0eaff, #f0f8ff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Flyttbar figur */
+#figur {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 80px;
+  top: 100px;
+  left: 100px;
+  user-select: none;
+  cursor: grab;
+  transition: transform 0.1s ease-in-out;
+}
+
+/* Klikk-effekt */
+#figur:active {
+  transform: scale(0.95);
+}
+
+/* Instruksjonstekst */
+.instructions {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.7);
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  color: #003366;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
