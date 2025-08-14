@@ -32,4 +32,7 @@ I denne oppgaven skal vi utforske den praktiske siden av JavaScript ved å lage 
 
 > Ryddig og velorganisert kode gjør det lettere å holde oversikt over alle komponentene! Hvis du trenger å bruke en løkke, bruk anledningen til å øve på de avanserte array-metodene vi har gått gjennom.  
 
-> Husk også å aktivere **GitHub Pages** for innleveringen din.  
+> Husk også å aktivere **GitHub Pages** for innleveringen din.
+
+## Live demo
+[movableObject](https://vildesv.github.io/movableObject/)
