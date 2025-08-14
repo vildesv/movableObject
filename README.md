@@ -1,4 +1,4 @@
-# Opprette et Flyttbart Element
+# Create a movable object
 
 I denne oppgaven skal vi utforske den praktiske siden av JavaScript ved å lage et flyttbart HTML-element. Målet er å gjøre det mulig for elementet å bevege seg fritt rundt i nettleservinduet.  
 
